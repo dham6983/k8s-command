@@ -88,3 +88,9 @@ kubectl config set-context --current --namespace spinnaker
 kubectl config current-context
 
 ```
+### Edit service manifest file of a Service
+
+```
+kubectl edit service service-name
+
+```
