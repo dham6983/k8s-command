@@ -72,3 +72,17 @@ kubectl delete deployment debdemoapp
 kubectl create ns spinnaker
 
 ```
+
+### Setting context to my namespace created above
+
+```
+kubectl config set-context --current --namespace spinnaker
+
+```
+
+### Getting a current context
+
+```
+kubectl config current-context
+
+```
