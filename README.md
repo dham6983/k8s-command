@@ -1,3 +1,6 @@
+[Spinnaker training repo](https://github.com/redashu/salesforce-spinnaker-1)
+
+
 ## k8s-command
 
 ### Createing deployemnt yaml using CLI
