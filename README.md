@@ -65,3 +65,10 @@ kubectl delete services debdemoapp
 kubectl delete deployment debdemoapp
 
 ```
+
+### Create a namespace
+
+```
+kubectl create ns spinnaker
+
+```
