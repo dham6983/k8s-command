@@ -16,13 +16,34 @@ kubectl apply -f app.yml
 ### verify the deployment
 
 ```
-kubectl get deplo
+kubectl get deploy
 
 ```
 
 ### descibe the deployment
 
 ```
-kubectl describe deploy debapp-demo
+kubectl describe deploy debdemoapp
+
+```
+
+### Create the srvice manifest yaml
+
+
+```
+kubectl  expose deployment  debdemoapp  --type NodePort --port 80 --dry-run=client -o yaml >expose.yaml
+
+```
+
+### deploye the service manifest file
+
+```
+kubectl apply -f expose.yaml
+
+```
+### Verify the service
+
+```
+kubectl get services
 
 ```
