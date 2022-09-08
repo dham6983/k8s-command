@@ -19,3 +19,10 @@ kubectl apply -f app.yml
 kubectl get deplo
 
 ```
+
+### descibe the deployment
+
+```
+kubectl describe deploy debapp-demo
+
+```
