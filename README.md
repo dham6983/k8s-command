@@ -50,3 +50,18 @@ kubectl apply -f expose.yaml
 kubectl get services
 
 ```
+
+### delete a sevice object
+
+```
+kubectl delete services debdemoapp
+
+```
+
+### delete all deployment object
+
+```
+
+kubectl delete deployment debdemoapp
+
+```
