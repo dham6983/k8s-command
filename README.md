@@ -1,5 +1,7 @@
 [Spinnaker training repo](https://github.com/redashu/salesforce-spinnaker-1)
 
+[Spinnaker Doc](https://github.com/redashu/spinnaker)
+
 
 ## k8s-command
 
